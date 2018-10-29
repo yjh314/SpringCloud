@@ -16,5 +16,5 @@ public class DemoController {
 	@GetMapping("/hello/{name}")
 	public String hello(@PathVariable String name) {
 		return demoService.hello(name);
-	}
+	}  	 
 }

@@ -8,7 +8,7 @@ logging:
     ROOT: INFO
 
 server:
-  port: 1111
+  port: 2111
 
 eureka:
   instance:

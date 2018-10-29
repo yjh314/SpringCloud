@@ -1,10 +1,10 @@
 spring:
   application:
-    name: feign-client
+    name: feign-server
 
 server:
-  port: 2112
-  
+  port: 2113
+
 logging:
   level:
     com.example.feign.service.DemoService: DEBUG  # 打印FeignClient接口日志
